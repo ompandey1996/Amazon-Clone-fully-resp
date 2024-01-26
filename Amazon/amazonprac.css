@@ -1,0 +1,297 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.amazon-site {
+  overflow-x: hidden;
+  position: relative;
+}
+
+a {
+  font-size: 1.1rem;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+p,
+h1,
+h2,
+ol {
+  margin: 0px;
+  list-style: none;
+}
+
+/* fstnav   style */
+.fst-nav {
+  height: 6rem;
+  color: white;
+  background-color: #131921;
+}
+
+.fst-nav .leftMenu .logo img {
+  width: 12.8rem;
+  height: 5rem;
+  padding: 1.3rem 1.6rem 0.7rem 1.6rem;
+}
+
+.fst-nav .leftMenu .logo img:hover {
+  border: 1px solid white;
+}
+
+.fst-nav .leftMenu .address {
+  line-height: 1.5rem;
+  padding: 0.8rem 0.4rem;
+}
+
+.address:hover {
+  border: 1px solid white;
+}
+
+.fst-nav .leftMenu .address .small {
+  margin-left: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.fst-nav .leftMenu .address .big {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.fa-location-dot {
+  font-size: 1.6rem;
+}
+
+/*  fst nav middle menu  style */
+.middleMenu {
+  width: 42%;
+}
+
+.input-box,
+input {
+  width: 100%;
+}
+
+.middleMenu select {
+  width: auto;
+  height: 3.9rem;
+  outline: none;
+  font-size: 1.4rem;
+  border: none;
+  background-color: #E6E6E6;
+
+}
+
+.middleMenu .input-box input {
+  height: 3.9rem;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.middleMenu .magnify-glass {
+  height: 3.9rem;
+  width: 5rem;
+  font-size: 1.4rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FEBD69;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+
+/* rightmenu */
+.rightMenu .flagbox img {
+  width: 3rem;
+  height: 1.5rem;
+}
+
+.rightMenu .flagbox {
+  padding: 1.5rem 1rem;
+}
+
+.rightMenu .flagbox:hover {
+  border: 1px solid white;
+}
+
+.signinbox,
+.orderbox {
+  line-height: 1.5rem;
+}
+
+.small {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.big {
+  font-size: 1.4rem;
+  font-weight: 600;
+
+}
+
+.rightMenu .signinbox,
+.orderbox {
+  padding: 0.7rem 1rem;
+}
+
+.rightMenu .signinbox:hover {
+  border: 1px solid white;
+}
+
+.rightMenu .orderbox:hover {
+  border: 1px solid white;
+}
+
+.cartbox {
+  font-size: 3rem;
+  padding: 0.7rem 0.4rem;
+}
+
+/* snd nav */
+
+.SndNav {
+  height: 4rem;
+  background-color: #232F3E;
+  color: white;
+
+  padding-left: 1rem;
+  gap: 1.7rem;
+
+}
+
+.SndNav .SndleftMenu .hamburger {
+  font-size: 1.7rem;
+}
+
+.SndMiddleMenu {
+  gap: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.hamburger {
+  font-size: 2rem;
+}
+
+.hamburger-text p {
+  font-size: 1.7rem;
+
+  margin-left: 0.5rem;
+}
+
+.SndRightMenu img {
+  height: 4rem;
+  margin-left: 7%;
+  width: 42rem;
+  /* border:1px solid red; */
+}
+
+main {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  background-color: #E4E6E4;
+
+
+}
+
+.slide {
+  position: relative;
+  width: 100%;
+  padding: 30%;
+  height: 40rem;
+}
+
+.slide img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+.butn {
+  position: absolute;
+  top: 40%;
+  font-weight: 100;
+  font-size: 3.5rem;
+}
+
+.prev {
+  position: absolute;
+  left: 2%;
+}
+
+.next {
+  position: absolute;
+  right: 2%;
+}
+
+/* style for cards */
+.card-container {
+  width: 97%;
+  margin: 0 auto;
+  /*   given for creating space from left and right */
+  padding: 0 0.5%;
+  transform: translateY(-20%)
+}
+
+.card-container .card-1 {
+  flex-basis: 31%;
+  border: 1px solid red;
+  padding: 2rem 1rem;
+  background-color: white;
+
+}
+
+.card-1 .card-1-heading h2 {
+  font-weight: 650;
+}
+
+.img-wrapper .category p {
+  font-size: 1.3rem;
+  font-weight: 450;
+}
+
+.card-1 .img-container .img-wrapper {
+  flex-basis: 47%;
+
+}
+
+.img-wrapper .img {
+  width: 100%;
+  padding-top: 72%;
+  position: relative;
+
+}
+
+.img-wrapper .img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.lora-parent {
+  font-size: 3rem;
+  sli border: 1px solid red;

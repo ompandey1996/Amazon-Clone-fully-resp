@@ -1,0 +1,553 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.amazon-site {
+  overflow-x: hidden;
+  position: relative;
+}
+
+a {
+  font-size: 1.1rem;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+p,
+h1,
+h2,
+ol {
+  margin: 0px;
+  list-style: none;
+}
+
+/* fstnav   style */
+.fst-nav {
+  height: 6rem;
+  color: white;
+  background-color: #131921;
+}
+
+.fst-nav .leftMenu .logo img {
+  width: 12.8rem;
+  height: 5rem;
+  padding: 1.3rem 1.6rem 0.7rem 1.6rem;
+}
+
+.fst-nav .leftMenu .logo img:hover {
+  border: 1px solid white;
+}
+
+.fst-nav .leftMenu .address {
+  line-height: 1.5rem;
+  padding: 0.8rem 0.4rem;
+}
+
+.address:hover {
+  border: 1px solid white;
+}
+
+.fst-nav .leftMenu .address .small {
+  margin-left: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.fst-nav .leftMenu .address .big {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.fa-location-dot {
+  font-size: 1.6rem;
+}
+
+/*  fst nav middle menu  style */
+.middleMenu {
+  width: 42%;
+}
+
+.input-box,
+input {
+  width: 100%;
+}
+
+.middleMenu select {
+  width: auto;
+  height: 3.9rem;
+  outline: none;
+  font-size: 1.4rem;
+  border: none;
+  background-color: #E6E6E6;
+
+}
+
+.middleMenu .input-box input {
+  height: 3.9rem;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.middleMenu .magnify-glass {
+  height: 3.9rem;
+  width: 5rem;
+  font-size: 1.4rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FEBD69;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+
+/* rightmenu */
+.rightMenu .flagbox img {
+  width: 3rem;
+  height: 1.5rem;
+}
+
+.rightMenu .flagbox {
+  padding: 1.5rem 1rem;
+}
+
+.rightMenu .flagbox:hover {
+  border: 1px solid white;
+}
+
+.signinbox,
+.orderbox {
+  line-height: 1.5rem;
+}
+
+.small {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.big {
+  font-size: 1.4rem;
+  font-weight: 600;
+
+}
+
+.rightMenu .signinbox,
+.orderbox {
+  padding: 0.7rem 1rem;
+}
+
+.rightMenu .signinbox:hover {
+  border: 1px solid white;
+}
+
+.rightMenu .orderbox:hover {
+  border: 1px solid white;
+}
+
+.cartbox {
+  font-size: 3rem;
+  padding: 0.7rem 0.4rem;
+}
+
+/* snd nav */
+.SndNav {
+  height: 4rem;
+  background-color: #232F3E;
+  color: white;
+
+  padding-left: 1rem;
+  gap: 1.7rem;
+
+}
+
+.SndNav .SndleftMenu .hamburger {
+  font-size: 1.7rem;
+}
+
+.SndMiddleMenu {
+  gap: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.hamburger {
+  font-size: 2rem;
+}
+
+.hamburger-text p {
+  font-size: 1.7rem;
+
+  margin-left: 0.5rem;
+}
+
+.SndRightMenu img {
+  height: 4rem;
+  margin-left: 7%;
+  width: 42rem;
+  /* border:1px solid red; */
+}
+
+main {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #E4E6E4;
+
+
+}
+
+.slide {
+  position: relative;
+  width: 100%;
+  padding-top: 30%;
+}
+
+.slide img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+.butn {
+  position: absolute;
+  top: 40%;
+  font-weight: 100;
+  font-size: 3.5rem;
+}
+
+.prev {
+  position: absolute;
+  left: 2%;
+}
+
+.next {
+  position: absolute;
+  right: 2%;
+}
+
+/* style for cards */
+.card-container {
+  width: 97%;
+  margin: 0 auto;
+  transform: translateY(-15%);
+  /*   given for creating space from left and right */
+  padding: 0 0.5%;
+}
+
+.card-containerSec {
+  width: 97%;
+  margin: 0 auto;
+  transform: translateY(-10%);
+  /*   given for creating space from left and right */
+  padding: 0 0.5%;
+
+}
+
+.card-containerSec .card-1 {
+  flex-basis: 31%;
+
+  padding: 2rem 1rem;
+  background-color: white;
+
+}
+
+.card-container .card-1 {
+  flex-basis: 31%;
+
+  padding: 2rem 1rem;
+  background-color: white;
+
+}
+
+.card-1 .card-1-heading h2 {
+  font-weight: 650;
+}
+
+.img-wrapper .category p {
+  font-size: 1.3rem;
+  font-weight: 450;
+}
+
+.card-1 .img-container .img-wrapper {
+  flex-basis: 47%;
+
+}
+
+.img-wrapper .img {
+  width: 100%;
+  padding-top: 72%;
+  position: relative;
+
+}
+
+.img-wrapper .img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-container-2 {
+  position: sticky;
+  top: 130%;
+  background-color: red;
+}
+
+.card-containerThird {
+  transform: translateY(-5%);
+  width: 97%;
+  margin: 0 auto;
+  padding: 0 0.5%;
+}
+
+.giftcard-1,
+.giftcard-2,
+.giftcard-3 {
+  flex-basis: 32%;
+
+  padding: 1.5rem 1rem;
+  background-color: white;
+  color: black;
+}
+
+.gift-para p {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.price {
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+.discprice {
+  text-decoration: line-through;
+  font-size: 1.6rem;
+}
+
+.footer {
+  background-color: #232F3E;
+}
+
+footer .heading h1 {
+  background-color: #37475A;
+  color: white;
+  font-size: 1.4rem;
+  padding: 1rem 0rem;
+}
+
+.parentfooter {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  font-weight: 500;
+  background-color: #232F3E;
+  padding: 4rem 2rem;
+  font-weight: 350;
+
+}
+
+.fst-heading,
+.snd-heading,
+.third-heading,
+.fourth-heading h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.footborder {
+  height: 0.1rem;
+  color: grey;
+
+}
+
+.amazonfootprint {
+  background-color: #232F3E;
+  text-align: center;
+
+}
+
+.amz-logo img {
+  width: 70px;
+  height: 40px;
+  margin: 3rem 0rem;
+}
+
+.country p {
+  color: white;
+  font-size: 1.2rem;
+  padding: 0rem 0.5rem;
+}
+
+@media(min-width:990px) {
+  .newmiddleMenu {
+    display: none !important;
+  }
+
+  #hamburger {
+    display: none !important;
+  }
+
+  .SndNav {
+    justify-content: space-between;
+  }
+
+
+  .newaddress {
+    display: none !important;
+  }
+}
+
+@media(max-width:990px) {
+  .fst-nav {
+    height: auto;
+  }
+
+  #hamburger {
+    display: inline-block;
+    color: red;
+    font-size: 2.3rem;
+  }
+
+  .flagbox,
+  .orderbox {
+    display: none !important;
+  }
+
+  .SndNav {
+    display: none !important;
+  }
+
+  .fst-nav .leftMenu .address {
+    display: none !important;
+  }
+
+  .newaddress {
+    display: flex;
+    /* justify-content: space-around; */
+    color: white;
+    background-color: black;
+    /* text-align: center; */
+    /* justify-content: center; */
+    gap: 2rem;
+    padding-left: 7%;
+    font-size: -39rem;
+  }
+
+
+
+
+
+
+  .fst-nav .middleMenu {
+    display: none !important;
+  }
+
+  .newmiddleMenu {
+    width: 100%;
+    background-color: black;
+  }
+
+  .input-box,
+  input {
+    width: 100%;
+  }
+
+  .newmiddleMenu select {
+    width: auto;
+    height: 3.9rem;
+    outline: none;
+    font-size: 1.4rem;
+    border: none;
+    background-color: #E6E6E6;
+  }
+
+  .newmiddleMenu .input-box input {
+    height: 3.9rem;
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+
+  .newmiddleMenu .magnify-glass {
+    height: 3.9rem;
+    width: 5rem;
+    font-size: 1.4rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FEBD69;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}
+
+@media(max-width:767px) {
+
+  .card-container,
+  .card-containerSec,
+  .card-containerThird {
+    width: 99%;
+    flex-direction: column;
+    transform: translateY(1%);
+  }
+
+  .parentfooter {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 500;
+    background-color: #232F3E;
+    padding: 4rem 1rem;
+    font-weight: 350;
+
+  }
+
+  .fst-heading,
+  h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+
+
+}
+
+@media(max-width:500px) {
+
+  .parentfooter {
+
+    font-weight: 500;
+    background-color: #232F3E;
+    padding: 2rem 0;
+    font-weight: 350;
+  }
+
+  .fst-heading,
+  h2 {
+    font-size: 0.8rem;
+  }
+
+  .footerbox-1,
+  .footerbox-2,
+  .footerbox-3,
+  .footerbox-4 p {
+    font-size: 0.7rem;
+  }
+}
